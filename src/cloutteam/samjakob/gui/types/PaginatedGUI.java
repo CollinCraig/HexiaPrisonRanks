@@ -28,9 +28,9 @@ package cloutteam.samjakob.gui.types;
 import cloutteam.samjakob.gui.ItemBuilder;
 import cloutteam.samjakob.gui.buttons.GUIButton;
 import cloutteam.samjakob.gui.buttons.InventoryListenerGUI;
-import me.prisonranksx.PrisonRanksX;
-import me.prisonranksx.utils.SkullCreator;
-import me.prisonranksx.utils.XMaterial;
+import me.hexiaranks.PrisonRanksX;
+import me.hexiaranks.utils.SkullCreator;
+import me.hexiaranks.utils.XMaterial;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -78,7 +78,7 @@ public class PaginatedGUI implements InventoryHolder {
     private Map<Integer, GUIButton> toolbarItems;
     private int currentPage;
     private String name;
-    private static PrisonRanksX pluginx = (PrisonRanksX)Bukkit.getPluginManager().getPlugin("PrisonRanksX");
+    private static PrisonRanksX pluginx = (PrisonRanksX)Bukkit.getPluginManager().getPlugin("HexiaRanks");
 
     /**
      * Creates a PaginatedGUI. This is a Spigot 'Inventory Menu' that

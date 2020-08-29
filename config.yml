@@ -80,7 +80,7 @@ Options:
   rebirthsound-volume: 1.0
   # -
   rebirthsound-pitch: 1.0
-  # if you want every rank to have a restricted permission. the permission is: "prisonranksx.rankup.<the_rank_that_you_will_go_to>" without the quotes.
+  # if you want every rank to have a restricted permission. the permission is: "hexiaranks.rankup.<the_rank_that_you_will_go_to>" without the quotes.
   per-rank-permission: false
   # if you don't want the server to be a text garbage when the players rankup max then disable this by setting it to true.
   rankupmax-broadcastlastrankonly: true
@@ -88,11 +88,11 @@ Options:
   rankupmax-msglastrankonly: true
   # this is literally useless just disable it by making it true. except if you want the players to show their coolness when they rankup max.
   rankupmax-rankupmsglastrankonly: true
-  # Want vault plugin to handle the ranks instead of prisonranksx? then use this.
+  # Want vault plugin to handle the ranks instead of hexiaranks? then use this.
   rankup-vault-groups: false
   # You can write here "GroupManager" or "PermissionsEX" or "LuckPerms" or "Vault" otherwise you can write the command using these placeholders %player% and %rank%.
   rankup-vault-groups-plugin: "Vault"
-  # Check if player group in the said plugin doesn't match the one in prisonranksx then update it.
+  # Check if player group in the said plugin doesn't match the one in hexiaranks then update it.
   rankup-vault-groups-check: true
   # enable autorankup task.
   autorankup: true
@@ -108,7 +108,7 @@ Options:
   # show actionbar progress only while holding a diamond pickaxe?
   actionbar-progress-only-pickaxe: true
   # basically placeholderapi placeholders.
-  actionbar-progress-format: "%prisonranksx_rankup_progress% &e%prisonranksx_rankup_percentage%"
+  actionbar-progress-format: "%hexiaranks_rankup_progress% &e%hexiaranks_rankup_percentage%"
   # update time in ticks (20 ticks = 1 second), (40 ticks = 2 seconds).
   actionbar-progress-updater: 40
   # don't enable if you use experience for another thing.
@@ -116,7 +116,7 @@ Options:
   # expbar update time (10 ticks) (0.5 second)
   expbar-progress-updater: 10
   # the placeholder must return a number from 0 to 100 ! otherwise it will not work properly
-  expbar-progress-format: "%prisonranksx_rankup_percentage%"
+  expbar-progress-format: "%hexiaranks_rankup_percentage%"
   # autosave data every 15 minutes?
   autosave: true
   # send save message every 15 minutes to console?
@@ -212,7 +212,7 @@ MySQL: # wanna store players data in a database instead of yml files? enable thi
   host: localhost
   port: 3306
   database: test
-  table: prisonranksx
+  table: hexiaranks
   username: root
   password: "123"
   useSSL: false

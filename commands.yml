@@ -36,13 +36,13 @@ commands:
     permission-message: "&cYou don't have permission to execute this command."
     usage: "/<command>"
     aliases: [autop, aprestige]
-  autorebirth:
+  autoprestigemaster:
     enable: true
     description: "automatically prestige as long as you have enough money"
     permission: "hexia.autoprestige"
     permission-message: "&cYou don't have permission to execute this command."
     usage: "/<command>"
-    aliases: [autop, aprestige]
+    aliases: [autopm, aprestigemaster, apm]
   ranks:
     enable: true
     description: "shows a list of prison ranks"
