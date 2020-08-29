@@ -26,7 +26,6 @@
 # [you can't use /prx commands]
 worlds:
 - "i_am_a_disabled_world"
-- "i_should_not_be_messing_with_prisonranksx"
 - "not_even_the_op_can_bypass_me"
 Options:
   # Wanna disable ranks? set it to false.
