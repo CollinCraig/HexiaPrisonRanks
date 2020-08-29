@@ -1,6 +1,6 @@
-main: me.collincraig.HexiaPrisonRanks
+main: me.hexiaranks.HexiaRanks
 version: 2.5.13
-name: HexiaPrisonRanks
+name: HexiaRanks
 author: TheGaming999 (Forked by: HexiaMC DrPuffy)
 load: POSTWORLD
 depend: [Vault]
